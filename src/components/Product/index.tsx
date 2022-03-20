@@ -1,5 +1,6 @@
 import React from "react";
 import bluesneakers from "../../assets/pngwing.png";
+import { ProductAction } from "../ProductAction";
 import { SellerInfo } from "../SellerInfo";
 import {
   Container,
@@ -32,7 +33,7 @@ export function Product() {
         </Column>
 
         <Column>
-          {/* <ProductAction /> */}
+          <ProductAction />
           <SellerInfo />
 
           <WarrantySection />

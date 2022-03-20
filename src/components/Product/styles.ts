@@ -28,8 +28,6 @@ export const Panel = styled.div`
   box-shadow: var(--panel-shadow);
   border-radius: 5px;
 
-  margin-bottom: 3rem;
-
   display: grid;
   grid-template-columns: 65fr 35fr; // forma de usar o display grid
 `;
